@@ -1,0 +1,22 @@
+<!-- This page is responsible for the web layout of the page -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title>Neon Pong</title>
+        <link rel="stylesheet" href="style.css"/>
+    </head>
+    <body>
+        <h1>Neon Pong</h1>
+        <p onclick="startGame(event)" id="start">Start Game</p>
+        <p onclick="endGame(event)" id="end">End Game</p>
+
+        <canvas id="canvas" width="600" height="400"></canvas>
+        <img src="assets/ball-final.jpg" alt="" id="ball" />
+        <img src="assets/blue-paddle-final.jpg" alt="" id="blue" />
+        <img src="assets/red-paddle-final.jpg" alt="" id="red"/>
+        <script src="script.js"></script>
+    </body>
+</html>
